@@ -14,7 +14,7 @@ const publications = [
 const list = document.querySelector('#publication-list');
 const search = document.querySelector('#publication-search');
 const count = document.querySelector('#publication-count');
-let filter = 'journal';
+let filter = 'all';
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
